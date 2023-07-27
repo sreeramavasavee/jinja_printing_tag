@@ -9,7 +9,11 @@
     <center>
     <h1>this is my first rendering operation from backend to front end</h1>
     <h1>student name is {{name}}</h1>
-    <h1>student age is {{age}}</h1>
+   
+{% if age > 10 %}
+<h1>student age is {{age}}</h1>
+{% endif %}
+
     </center>
 
 </body>

@@ -16,3 +16,7 @@ def if_elif_else(request):
 def nestedif(request):
     d={'a':1000,'b':50000,'c':16000}
     return render(request,'nestedif.html',context=d)
+
+def loopcdt(request):
+    d={'name':'ashu','age':13 ,'hobbies':['cricket','football']}
+    return render(request,'loopcdt.html',context=d)

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h1>for loop </h1>
+    {% for i in name %}
+    <h1>{{i}}</h1>
+    {% endfor %}
+<h1>hobbies</h1>
+    {% for h in hobbies %}
+    <h1>{{h}}</h1>
+    {% endfor %}
+   
+
+    <h1>url navigation</h1>
+    <h1><a href="{% url 'nestedif' %}">click here navigate to nestedif page</a></h1>
+
+    </center>
+</body>
+</html>
